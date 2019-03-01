@@ -38,7 +38,7 @@ consume("Mary", "Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation:
-// `nestedfunction()` in nested inside of `myFunction()` which has access to `internal`. `nestedfunction()` is a child of `myFunction` and inherits what is inside of it.
+// `nestedfunction()` in nested inside of `myFunction()` which has access to `internal`. `nestedfunction()` is a child of `myFunction` and has access to what is inside of it. This is an example of a closure.
 
 const external = "I'm outside the function";
 
